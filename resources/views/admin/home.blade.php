@@ -16,6 +16,12 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+
+                <div class="card-footer">
+                    <div class="d-flex justify-content-end">
+                        <a href="{{ route('admin.woods.index') }}">Gestione Risorse</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
