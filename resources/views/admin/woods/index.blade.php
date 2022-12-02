@@ -8,7 +8,7 @@
         {{session('message')}}
     </div>
     @endif
-    <table class="table">
+    <table class="table table-striped table-warning table-bordered">
         <thead>
             <tr>
                 <th scope="col">Nome</th>
