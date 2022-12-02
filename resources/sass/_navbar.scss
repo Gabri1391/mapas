@@ -1,0 +1,13 @@
+#app {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../public/images/background.jpg');
+    background-size: cover;
+    .navbar {
+        background: linear-gradient(to top right, #B9794B 0%, #5F3E28 100%);
+
+        .dropdown-menu{
+            background: linear-gradient(to top right, #B9794B 0%, #5F3E28 100%);
+        }
+    }
+}
