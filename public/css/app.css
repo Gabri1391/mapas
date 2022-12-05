@@ -9243,7 +9243,7 @@ a.text-dark:hover, a.text-dark:focus {
 #app {
   height: 100vh;
   width: 100vw;
-  background-image: url("../../public/images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-size: cover;
 }
 #app .navbar {
@@ -9255,6 +9255,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .banner {
   max-width: 100%;
-  height: 800px;
+  height: 400px;
   background-color: #fff;
 }
