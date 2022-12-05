@@ -10932,3 +10932,18 @@ a.text-dark:focus {
   }
 }
 
+#app {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/images/background.jpg?89312e7a28152afb0fe4809cdac9a349);
+  background-size: cover;
+}
+
+#app .navbar {
+  background: linear-gradient(to top right, #B9794B 0%, #5F3E28 100%);
+}
+
+#app .navbar .dropdown-menu {
+  background: linear-gradient(to top right, #B9794B 0%, #5F3E28 100%);
+}
+
