@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    Benvenuto zi!
+    <div class="banner">
+        
+    </div>
 @endsection
