@@ -9252,6 +9252,10 @@ a.text-dark:hover, a.text-dark:focus {
 #app .navbar .dropdown-menu {
   background: linear-gradient(to top right, #B9794B 0%, #5F3E28 100%);
 }
+#app .navbar #main-brand {
+  font-size: 2rem;
+  vertical-align: middle;
+}
 
 .banner {
   max-width: 100%;
