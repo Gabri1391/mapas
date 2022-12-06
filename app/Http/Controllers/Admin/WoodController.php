@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\Wood;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class WoodController extends Controller
 {
@@ -15,8 +16,12 @@ class WoodController extends Controller
      */
     public function index()
     {
-        $woods = Wood::all();
-        return view('admin.woods.index', compact('woods'));
+        if(Auth::user()->id == 1){
+            $woods = Wood::all();
+            return view('admin.woods.index', compact('woods'));
+        }else{
+            return redirect()->route('admin.home')->with('type', 'danger')->with('message', 'Stai fermo che non sei l\'admin!');
+        }
     }
 
     /**
